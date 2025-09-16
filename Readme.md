@@ -71,3 +71,11 @@ crypto-predictor/
 git clone https://github.com/your-username/crypto-predictor.git
 cd crypto-predictor
 ```
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+📬 Contact
+
+👤 Made with ❤️ by Akshansh Roy
+🔗 [Linkedin](https://www.linkedin.com/in/akshansh-r-a7946b2a5/)

@@ -1,4 +1,4 @@
-# 🚀 Crypto Price Predictor (Dogecoin Example)
+# Crypto Market Prediction Pipeline with Live API Integration
 
 A machine learning project that predicts **future cryptocurrency prices** using historical data and real-time API integration.  
 Built with Python, Scikit-learn, and CoinGecko API.  

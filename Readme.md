@@ -11,7 +11,6 @@ Built with Python, Scikit-learn, and CoinGecko API.
 - Model evaluation using **RMSE** and **R² score**.
 - Cross-validation for robust performance.
 - Real-time prediction pipeline with live API data.
-- (Optional) Streamlit dashboard for visualization.
 
 ---
 
@@ -35,8 +34,8 @@ Example Real-Time Prediction:
 ---
 
 ## 🛠️ Tech Stack
-- **Python** (Pandas, NumPy, Scikit-learn, XGBoost)
-- **Visualization**: Matplotlib, Streamlit
+- **Python**: Pandas, NumPy, Scikit-learn, XGBoost)
+- **Visualization**: Matplotlib
 - **Deployment**: Joblib (for model saving), CoinGecko API
 
 ---
@@ -45,15 +44,12 @@ Example Real-Time Prediction:
 
 ```bash
 crypto-predictor/
-│── data/ # optional, small sample CSVs
 │── models/ # trained pipeline (.pkl files)
-│── notebooks/ # Jupyter notebooks (exploration/training)
-│── src/ # source code
-│ │── features.py # feature engineering functions
-│ │── train.py # training script
-│ │── predict.py # real-time prediction script
-│ │── fetch_data.py # API fetching functions
-│── app.py # Streamlit dashboard (optional)
+  │──doge_price_model.pkl
+  │──trained_pipeline.pkl
+│── Real-time_pred.ipynb
+│── cryptocurrency.csv
+│── model_training.ipynb
 │── requirements.txt # dependencies
 │── README.md # documentation
 │── .gitignore # ignored files

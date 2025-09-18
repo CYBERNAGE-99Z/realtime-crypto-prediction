@@ -34,7 +34,7 @@ Example Real-Time Prediction:
 ---
 
 ## 🛠️ Tech Stack
-- **Python**: Pandas, NumPy, Scikit-learn, XGBoost)
+- **Python**: Pandas, NumPy, Scikit-learn, XGBoost
 - **Visualization**: Matplotlib
 - **Deployment**: Joblib (for model saving), CoinGecko API
 
@@ -59,16 +59,23 @@ crypto-predictor/
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/crypto-predictor.git
 cd crypto-predictor
 ```
-Install dependencies
+2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
+3. Open  the jupyter notebook
+```bash
+jupyter notebook "model_training.ipynb.ipynb"
+jupyter notebook Real-time_pred.ipynb.ipynb"
+```
+
+
 📬 Contact
 
 👤 Made with ❤️ by Akshansh Roy

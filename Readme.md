@@ -72,7 +72,7 @@ pip install -r requirements.txt
 3. Open  the jupyter notebook
 ```bash
 jupyter notebook "model_training.ipynb.ipynb"
-jupyter notebook Real-time_pred.ipynb.ipynb"
+jupyter notebook "Real-time_pred.ipynb.ipynb"
 ```
 
 
